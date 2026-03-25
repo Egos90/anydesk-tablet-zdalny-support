@@ -8,10 +8,10 @@ import { viteSingleFile } from "vite-plugin-singlefile";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
-  base: '/anydesk-tablet-zdalny-support/', // <--- Ta linia naprawia ścieżki na GitHub Pages
+  // To ustawienie naprawia błędy 404 dla zasobów na GitHub Pages
+  base: '/anydesk-tablet-zdalny-support/', 
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
