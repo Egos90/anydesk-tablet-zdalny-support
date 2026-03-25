@@ -135,11 +135,11 @@ export default function App() {
   }
 
   const downloadAnyDesk = () => {
-    window.location.href = 'https://github.com/twoj-uzytkownik/anydesk/releases/download/v1.0/AnyDesk.apk'
+    window.location.href = 'https://github.com/Egos90/ADHelper/releases/download/1.0/anydesk.apk'
   }
 
   const downloadAD1 = () => {
-    window.location.href = 'https://github.com/twoj-uzytkownik/ad1/releases/download/v1.0/AD1.apk'
+    window.location.href = 'https://github.com/Egos90/ADHelper/releases/download/1.0/ad1.apk'
   }
 
   if (isConfiguring && currentStep !== null) {
